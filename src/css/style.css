@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --cor-amarela: #00BFFF;
+    --cor-azul: #00BFFF;
     --cor-cinza: #F9FAFB;
     --cor-preta: #000000;
     --cor-branca: #FFFFFF;
+    --box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
     --fonte-titulos: 40px;
     --fonte-subtitulos: 25px;
     --fonte-links: 16px;
@@ -36,7 +37,7 @@ body {
 }
 
 .cabecalho span {
-    color: var(--cor-amarela);
+    color: var(--cor-azul);
 }
 
 .link {
@@ -83,7 +84,7 @@ body {
 
 .text-econo {
     font-size: var(--fonte-titulos);
-    color: var(--cor-amarela);
+    color: var(--cor-azul);
 }
 
 .btn-enter {
@@ -97,6 +98,11 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5em;
+}
+
+.btn-enter:hover {
+    background-color: #00BFFF;
+    transition: .8s;
 }
 
 .secao-1 {
@@ -141,7 +147,7 @@ body {
 
 .secao-3 {
     text-align: center;
-    height: 100vh;
+    height: 500px;
 }
 
 .secao-3 h1 {
@@ -314,6 +320,63 @@ body {
     transform: translateY(0);
 }
 
+.carrossel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrossel-slides {
+    display: flex;
+    justify-content: center;
+    transition: transform 6s ease-in-out; /* Animação suave e lenta */
+}
+
+.slide {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--cor-azul);
+    color: var(--cor-preta);
+    border-radius: 10px;
+    margin-top: 4em;
+    box-shadow: var(--box-shadow); /* Sombra elegante */
+}
+
+.carrossel-prev, .carrossel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--cor-botao); /* Cor do botão */
+    color: var(--cor-preta);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%; /* Forma circular */
+    box-shadow: var(--box-shadow); /* Sombra elegante */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+}
+
+.carrossel-prev:hover, .carrossel-next:hover {
+    background-color: var(--cor-preta); /* Cor do botão ao passar o mouse */
+    color: var(--cor-branca);
+    transform: scale(1.1); /* Aumentar o tamanho ao passar o mouse */
+}
+
+.carrossel-prev {
+    left: 10px;
+}
+
+.carrossel-next {
+    right: 10px;
+}
+
+
 
 @media screen and (max-width: 576px) {
     .cabecalho {
@@ -437,6 +500,8 @@ body {
 
 
 }
+
+
 
 
 
