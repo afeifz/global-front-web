@@ -113,7 +113,7 @@ body {
 
 .secao-1-conteudo p {
     font-size: var(--fonte-secao-paragrafo);
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .secao-2 {
@@ -133,7 +133,7 @@ body {
 
 .secao-2-conteudo p {
     font-size: var(--fonte-secao-paragrafo);
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .secao-3 {
@@ -206,4 +206,53 @@ body {
 
 .secao-4-texto p {
     font-size: var(--fonte-links);
+}
+
+.secao-5 {
+    height: 100vh;
+}
+
+.secao-5 h1 {
+    font-size: var(--fonte-secao-titulo);
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.secao-5-conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secao-5-textos {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.secao-5-texto {
+    background-color: var(--cor-branca);
+    padding: 0.3em;
+    border-radius: 10px;
+    width: 40em;
+}
+
+.secao-6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.secao-6-conteudo {
+    width: 40em;
+}
+
+.secao-6-conteudo h1 {
+    font-size: var(--fonte-secao-titulo);
+    margin-bottom: 2em;
+}
+
+.secao-6-conteudo p {
+    font-size: var(--fonte-secao-paragrafo);
 }
