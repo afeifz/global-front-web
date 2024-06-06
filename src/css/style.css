@@ -202,6 +202,12 @@ body {
     padding: 0.3em;
     border-radius: 10px;
     width: 40em;
+    padding: 0.4em;
+}
+
+.secao-4-texto:hover {
+    padding: 1em;
+    transition: .5s;
 }
 
 .secao-4-texto p {
@@ -235,6 +241,12 @@ body {
     padding: 0.3em;
     border-radius: 10px;
     width: 40em;
+    padding: 0.4em;
+}
+
+.secao-5-texto:hover {
+    padding: 1em;
+    transition: .5s;
 }
 
 .secao-6 {
