@@ -268,3 +268,7 @@ body {
 .secao-6-conteudo p {
     font-size: var(--fonte-secao-paragrafo);
 }
+
+.rodape {
+    text-align: center;
+}
