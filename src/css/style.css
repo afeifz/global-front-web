@@ -110,4 +110,25 @@ body {
 
 .secao-1-conteudo p {
     font-size: var(--fonte-secao-paragrafo);
+    margin-top: 1em;
+}
+
+.secao-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.secao-2-conteudo {
+    width: 40em;
+}
+
+.secao-2-conteudo h1 {
+    font-size: var(--fonte-secao-titulo);
+}
+
+.secao-2-conteudo p {
+    font-size: var(--fonte-secao-paragrafo);
+    margin-top: 1em;
 }
