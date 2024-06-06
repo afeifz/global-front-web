@@ -4,11 +4,13 @@
     --cor-amarela: #FFCC43;
     --cor-branca: #FFFFFF;
     --cor-preta: #000000;
+    --cor-cinza: #F0F0F0;
     --fonte-titulos: 40px;
     --fonte-subtitulos: 25px;
     --fonte-links: 16px;
     --fonte-secao-titulo: 30px;
     --fonte-secao-paragrafo: 20px;
+    
 }
 
 
@@ -131,4 +133,28 @@ body {
 .secao-2-conteudo p {
     font-size: var(--fonte-secao-paragrafo);
     margin-top: 1em;
+}
+
+.secao-3 {
+    text-align: center;
+    height: 100vh;
+}
+
+.secao-3-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+    gap: 3em;
+}
+
+.card {
+    width: 15em;
+    background-color: var(--cor-cinza);
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+.card:hover {
+    padding: 3em;
+    transition: .5s;
 }
