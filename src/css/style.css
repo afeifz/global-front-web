@@ -28,3 +28,8 @@ body {
     text-decoration: none;
     color: black;
 }
+
+.cabecalho-links {
+    display: flex;
+    gap: 2em;
+}
