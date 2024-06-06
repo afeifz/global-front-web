@@ -316,7 +316,51 @@ body {
 
 
 @media screen and (max-width: 576px) {
+    .cabecalho {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cabecalho-links {
+        flex-wrap: wrap;
+        width: 30em;
+        justify-content: center;
+        margin-top: 2em;
+    }
+
+    @keyframes typewriter {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 28%;
+        }
+        100% {
+            width: 0;
+        }
+    }
+
+    .secao-1 {
+        flex-direction: column;
+    }
+
+    .secao-1-conteudo {
+        width: 20em;
+    }
+
+    .secao-1-conteudo h1 {
+        font-size: 20px;
+    }
+
+    .secao-1-conteudo p {
+        font-size: 16px;
+    }
+
     
+
+    .imagens {
+        width: 200;
+    }
 }
 
 
