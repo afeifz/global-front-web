@@ -20,18 +20,19 @@
     <h1>Cadastro de Usuário</h1>
     <form id="formCadastro" onsubmit="return validarCadastro()">
         <label for="nome">Nome</label>
-        <input class="inputs-cadastro" type="text" id="nome" name="nome" required>
+        <input class="inputs-cadastro" type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
         
         <label for="email">Email</label>
-        <input class="inputs-cadastro" type="email" id="email" name="email" required>
+        <input class="inputs-cadastro" type="email" id="email" placeholder="Digite seu email" name="email" required>
         
         <label for="senha">Senha</label>
-        <input class="inputs-cadastro" type="password" id="senha" name="senha" required>
+        <input class="inputs-cadastro" type="password" id="senha" placeholder="Digite sua senha" name="senha" required>
         
         <label for="confirmaSenha">Confirme a Senha</label>
-        <input class="inputs-cadastro" type="password" id="confirmaSenha" name="confirmaSenha" required>
+        <input class="inputs-cadastro" type="password" id="confirmaSenha" placeholder="Digite sua senha novamente" name="confirmaSenha" required>
         
         <button class="btn-cadastro" type="submit">Cadastrar</button>
+        <p>Já possui conta? Faça <a href="">Login!</a></p>
     </form>
     </div>
     </div>
