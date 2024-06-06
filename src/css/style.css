@@ -4,6 +4,9 @@
     --cor-amarela: #FFCC43;
     --cor-branca: #FFFFFF;
     --cor-preta: #000000;
+    --fonte-titulos: 40px;
+    --fonte-subtitulos: 25px;
+    --fonte-links: 16px;
 }
 
 
@@ -24,7 +27,7 @@ body {
 }
 
 .cabecalho h1 {
-    font-size: 40px;
+    font-size: var(--fonte-titulos);
 }
 
 .cabecalho span {
@@ -34,7 +37,7 @@ body {
 .link {
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: var(--fonte-links);
 }
 
 .cabecalho-links {
@@ -45,7 +48,7 @@ body {
 .subtitle-new-equipe {
     display: flex;
     align-items: center;
-    gap: 0.3em;
+    gap: 0.5em;
 }
 
 .secao-introducao-conteudo {
@@ -60,6 +63,13 @@ body {
     width: 3.5em;
     text-align: center;
     align-self: center;
-    font-size: 16px;
+    font-size: var(--fonte-links);
 }
 
+.text-equipe, .text-solution-paragraph {
+    font-size: var(--fonte-subtitulos);
+}
+
+.text-econo, .text-solution {
+    font-size: var(--fonte-titulos);
+}
