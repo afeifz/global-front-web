@@ -140,21 +140,69 @@ body {
     height: 100vh;
 }
 
+.secao-3 h1 {
+    font-size: var(--fonte-secao-titulo);
+}
+
 .secao-3-cards {
     display: flex;
     justify-content: space-around;
-    margin-top: 4em;
+    margin-top: 3em;
     gap: 3em;
 }
 
 .card {
-    width: 15em;
+    width: 20em;
     background-color: var(--cor-cinza);
     padding: 1.5em;
     border-radius: 10px;
 }
 
+.card h2 {
+    font-size: var(--fonte-subtitulos);
+}
+
+.card p {
+    font-size: var(--fonte-links);
+}
+
+
 .card:hover {
     padding: 3em;
     transition: .5s;
+}
+
+.secao-4 {
+    height: 100vh;
+}
+
+.secao-4 h1 {
+    font-size: var(--fonte-secao-titulo);
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+.secao-4-conteudo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secao-4-textos {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.secao-4-texto{
+    background-color: var(--cor-cinza);
+    padding: 0.3em;
+    border-radius: 10px;
+    width: 40em;
+}
+
+.secao-4-texto p {
+    font-size: var(--fonte-links);
 }
