@@ -70,8 +70,12 @@ body {
     font-size: var(--fonte-subtitulos);
 }
 
-.text-econo, .text-solution {
+.text-solution {
     font-size: var(--fonte-titulos);
+}
+.text-econo {
+    font-size: var(--fonte-titulos);
+    color: var(--cor-amarela);
 }
 
 .btn-enter {
