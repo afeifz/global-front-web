@@ -342,21 +342,25 @@ body {
 
     .secao-1 {
         flex-direction: column;
+        height: 900px;
     }
 
-    .secao-1-conteudo {
-        width: 20em;
+    .secao-1-conteudo, .secao-2-conteudo {
+        width: 30em;
     }
 
-    .secao-1-conteudo h1 {
-        font-size: 20px;
+    .secao-1-conteudo h1, .secao-2-conteudo h1 {
+        font-size: 30px;
     }
 
-    .secao-1-conteudo p {
+    .secao-1-conteudo p, .secao-2-conteudo p {
         font-size: 16px;
     }
 
-    
+    .secao-2 {
+        flex-direction: column-reverse;
+        height: 900px;
+    }
 
     .imagens {
         width: 200;
