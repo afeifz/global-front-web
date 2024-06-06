@@ -105,6 +105,33 @@ body {
     transition: .8s;
 }
 
+.btns-entrar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-login-cadastro {
+    font-size: var(--fonte-subtitulos);
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+    font-family: 'Poppins';
+    margin-top: 3em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    width: 7em;
+}
+
+.btn-login-cadastro:hover {
+    background-color: #00BFFF;
+    transition: .8s;
+}
+
 .secao-1 {
     display: flex;
     justify-content: space-around;
@@ -375,6 +402,8 @@ body {
 .carrossel-next {
     right: 10px;
 }
+
+
 
 
 
