@@ -2,9 +2,9 @@
 
 :root {
     --cor-amarela: #FFCC43;
-    --cor-branca: #FFFFFF;
+    --cor-cinza: #F9FAFB;
     --cor-preta: #000000;
-    --cor-cinza: #F0F0F0;
+    --cor-branca: #FFFFFF;
     --fonte-titulos: 40px;
     --fonte-subtitulos: 25px;
     --fonte-links: 16px;
@@ -21,6 +21,7 @@
 
 body {
     font-family: "Poppins";
+    background-color: var(--cor-cinza);
 }
 
 .cabecalho {
@@ -153,7 +154,7 @@ body {
 
 .card {
     width: 20em;
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-branca);
     padding: 1.5em;
     border-radius: 10px;
 }
@@ -197,7 +198,7 @@ body {
 }
 
 .secao-4-texto{
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-branca);
     padding: 0.3em;
     border-radius: 10px;
     width: 40em;
