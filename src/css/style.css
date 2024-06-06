@@ -346,6 +346,17 @@ body {
     margin-top: 0.5em;
 }
 
+.btn-cadastro {
+    margin-top: 1em;
+    background-color: var(--cor-azul);
+    font-family: 'Poppins';
+    padding: 0.5em;
+    width: 506px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 @keyframes typewriter {
     0% {
