@@ -334,6 +334,18 @@ body {
     margin: 0 auto; 
 }
 
+.inputs-cadastro {
+    padding: 15px;
+    width: 472px;
+    border-radius: 5px;
+    border: var(--cor-azul) solid 2px;
+    margin-top: 0.5em;
+}
+
+#formCadastro label {
+    margin-top: 0.5em;
+}
+
 
 @keyframes typewriter {
     0% {
