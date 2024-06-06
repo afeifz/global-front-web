@@ -377,7 +377,19 @@ body {
     .card h2 {
         font-size: 20px;
         margin-bottom: 1em;
-    }   
+    } 
+
+    .secao-4 {
+        height: 1250px;
+    }
+    
+    .secao-4-conteudo {
+        flex-direction: column;
+    }
+
+
+
+
 }
 
 
