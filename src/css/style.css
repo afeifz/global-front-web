@@ -317,6 +317,24 @@ body {
     margin-bottom: 2em;
 }
 
+.forms-cadastro, #formCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+}
+
+.forms-cadastro {
+    margin-top: 3em;
+}
+
+.cadastro {
+    width: 100%; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+
 @keyframes typewriter {
     0% {
         width: 0;
