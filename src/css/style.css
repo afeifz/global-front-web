@@ -78,6 +78,9 @@ body {
 .text-solution {
     font-size: var(--fonte-titulos);
 }
+
+
+
 .text-econo {
     font-size: var(--fonte-titulos);
     color: var(--cor-amarela);
@@ -280,3 +283,26 @@ body {
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+@keyframes typewriter {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 11%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+.global {
+    display: inline-flex;
+    overflow: hidden;
+    border-right: 1px solid black;
+    animation: typewriter 4s steps(10) infinite;
+}
+
+
+
+
