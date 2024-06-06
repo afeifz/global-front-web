@@ -363,8 +363,21 @@ body {
     }
 
     .imagens {
-        width: 200;
+        width: 300px;
     }
+
+    .secao-3 {
+        height: 900px;
+    }
+
+    .card {
+        width: 200px;
+        padding: 0.5em;
+    }
+    .card h2 {
+        font-size: 20px;
+        margin-bottom: 1em;
+    }   
 }
 
 
