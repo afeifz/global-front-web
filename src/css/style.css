@@ -2,6 +2,8 @@
 
 :root {
     --cor-amarela: #FFCC43;
+    --cor-branca: #FFFFFF;
+    --cor-preta: #000000;
 }
 
 
@@ -42,4 +44,22 @@ body {
 
 .subtitle-new-equipe {
     display: flex;
+    align-items: center;
+    gap: 0.3em;
 }
+
+.secao-introducao-conteudo {
+    margin: 5em 0 0 5em;
+}
+
+.text-new {
+    background-color: var(--cor-preta);
+    color: var(--cor-branca);
+    padding: 0.1em;
+    border-radius: 1em;
+    width: 3.5em;
+    text-align: center;
+    align-self: center;
+    font-size: 16px;
+}
+
