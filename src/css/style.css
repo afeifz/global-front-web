@@ -7,6 +7,8 @@
     --fonte-titulos: 40px;
     --fonte-subtitulos: 25px;
     --fonte-links: 16px;
+    --fonte-secao-titulo: 30px;
+    --fonte-secao-paragrafo: 20px;
 }
 
 
@@ -89,4 +91,23 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5em;
+}
+
+.secao-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.secao-1-conteudo {
+    width: 40em;
+}
+
+.secao-1-conteudo h1 {
+    font-size: var(--fonte-secao-titulo);
+}
+
+.secao-1-conteudo p {
+    font-size: var(--fonte-secao-paragrafo);
 }
