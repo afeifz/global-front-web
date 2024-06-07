@@ -21,7 +21,7 @@ function validarLogin() {
 
     
 
-    window.location.href = '/index.html';
+    window.location.href = '../index.html';
     alert('Login realizado com sucesso!\nBem-vindo, ' + usuario.nome + '!');
     return true;
 }
