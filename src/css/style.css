@@ -358,6 +358,48 @@ body {
     margin-bottom: 1em;
 }
 
+.forms-login, #formLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.forms-login {
+    margin-top: 3em;
+}
+
+.login {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.inputs-login {
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: var(--cor-azul) solid 2px;
+    margin-top: 0.5em;
+}
+
+#formLogin label {
+    margin-top: 0.5em;
+}
+
+.btn-login {
+    margin-top: 1em;
+    background-color: var(--cor-azul);
+    font-family: 'Poppins';
+    padding: 0.5em;
+    width: 434px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+
 
 @keyframes typewriter {
     0% {
