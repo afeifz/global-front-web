@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristalina</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/73170762c9.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./imgs/droplet-solid.svg" type="image/x-icon">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1><span>Crista</span>lina</h1>
+        <div class="cabecalho-links">
+            <a href="../index.html" class="link">Voltar</a>
+        </div>
+    </header>
+    <section class="forms-login">
+        <div class="login">
+            <h1>Login de Usuário</h1>
+            <form id="formLogin" onsubmit="return validarLogin()">
+                <label for="emailLogin">Email:</label>
+                <input type="email" id="emailLogin" name="emailLogin" required>
+
+                <label for="senhaLogin">Senha:</label>
+                <input type="password" id="senhaLogin" name="senhaLogin" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
