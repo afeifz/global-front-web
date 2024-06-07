@@ -22,9 +22,8 @@ function validarCadastro() {
 
     localStorage.setItem('usuario', JSON.stringify(usuario));
 
+    
+    window.location.href = '/index.html';
     alert('Cadastro realizado com sucesso!\nNome: ' + nome + '\nEmail: ' + email);
-
-    window.location.href = '../index.html';
-
     return true;
 }
