@@ -399,7 +399,9 @@ body {
     margin-bottom: 1em;
 }
 
-
+.formatar-links {
+    text-decoration: none;
+}
 
 
 
